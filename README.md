@@ -1,6 +1,6 @@
 # _Doctor Lookup_
 
-#### Implements BetterDoctors API
+#### Implements BetterDoctor API
 
 #### Eric Bomblatus
 #### January 6th, 2017
@@ -13,13 +13,13 @@ Allows users to search for doctors via [BetterDoctors API](https://developer.bet
 
 ## Setup/Installation Requirements
 
-* Clone this repo: `git clone https://github.com/erbombla/doctor-js.git`
-* Change to the repo directory: `cd {repo}`
+* Clone this repo `git clone https://github.com/erbombla/doctor-js.git`
+* Change to the repo directory `cd {repo}`
 * Install NPM `npm install`
 * Install Bower `bower install`
 * Install Gulp task runner `npm install gulp -g`
 * Add ENV keys (instructions below)
-* Build files: `gulp build`
+* Build files `gulp build`
 * Run `gulp serve`
 
 ## ENV setup

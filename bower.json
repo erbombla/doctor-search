@@ -1,10 +1,9 @@
 {
-  "name": "doctor-js",
-  "description": "Independent Project",
+  "name": "doctor-search",
+  "description": "",
   "main": "index.js",
   "license": "ISC",
   "homepage": "",
-  "private": true, 
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,6 +13,6 @@
   ],
   "dependencies": {
     "jquery": "^3.1.1",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.3.7"
   }
 }
