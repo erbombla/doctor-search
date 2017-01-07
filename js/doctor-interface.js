@@ -1,19 +1,4 @@
-var apiKey = require('./../.env').apiKey;
-
+var doctorData = require('./../js/doctor.js').doctorModule;
 $(document).ready(function() {
- var currentDoctorObject = new Doctor();
- $('.showDoctors').hide();
- $('#results').hide();
- $('#search').click(function() {
+ $('#doctor-search').submit(function(event) {
    event.preventDefault();
-   $('.showDoctors').empty();
-
-   var symptom = $('#symptom').val();
-   $('#symptom').val("");
-
-   currentDoctorObject.getDoctors(symptom);
-
-   $('.showDoctors').show();
-   $('#results').show();
- });
-});
