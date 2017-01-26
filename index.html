@@ -12,7 +12,7 @@
     <div class = "container">
       <div class="well">
         <h3> Search Doctors for your Symptoms </h3>
-        <form id="doctor-search">
+        <form id="doctor-search" method="post" form="index.html">
           <div class="form-group row">
             <label for="symptom" class="col-xs-2 col-form-label">Symptom</label>
             <div class="col-xs-10">
@@ -22,9 +22,9 @@
           <button type="submit" id="search" class="btn btn-primary">Search</button>
         </form>
       </div>
-      <div id = "results" class="well">
+      <div class="well">
         <h3> Results </h3>
-          <ul class="showDoctors"></ul>
+          <ul id = "doctorList"></ul>
       </div>
       <footer>
       <hr>
