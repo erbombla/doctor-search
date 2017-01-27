@@ -1,7 +1,6 @@
 var apiKey = require('./../.env').apiKey;
 
-function Doctor(list) {
-  this.list = [];
+function Doctor() {
 }
 
 Doctor.prototype.getDoctors = function(medicalIssue) {

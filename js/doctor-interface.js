@@ -5,8 +5,11 @@ $(document).ready(function() {
    event.preventDefault();
    var doctors = new Doctor();
    var symptom = $('#symptom').val();
+   console.log(symptom);
    doctors.getDoctors(symptom);
- });
+   $('#doctorList').empty();
+   $('#doctorList').show();
+  });
 });
 
 
